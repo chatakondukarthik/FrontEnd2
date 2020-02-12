@@ -5,18 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="responsive.css" type="text/css" rel="stylesheet">
     <title>Document</title>
-    <script>
-        function demo1(){
-            var a=9;
-            if(a%2==0)
-                document.getElementById("Demo").innerHTML=a+" is EVEN";
-            else
-                document.getElementById("Demo").innerHTML=a+" is ODD";
-        }
+    <script src="script.js">
     </script>
 </head>
-<body onclick="demo1();">
-    <p id="Demo">Output will be here!</p>
-    <button onclick="demo1();">Calculate the wolrd's greatest question</button>
+<body>
+    <p id="demo">Output Will Come Here</p>
+    <input type="number" id="One">
+    <input type="number" id="Two">
+    <button onclick="calc();">Calulate</button>
 </body>
 </html>
