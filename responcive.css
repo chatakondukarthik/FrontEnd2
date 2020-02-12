@@ -1,0 +1,27 @@
+h1{
+    font-family: simsun;
+    color:blueviolet;
+    background-color: darkred;
+    text-align: center;
+}
+p{
+    font-family: simsun;
+    color: deeppink;
+    background-color: ghostwhite;
+    text-align: justify;
+}
+body{
+    height: 3000px;
+    width: 2000px;
+    background-image: url("");
+    background-size: cover;
+}
+p.two{
+    background: red;
+    color: green;
+}
+div.one{
+    background: green;
+    color: red;
+ 
+}
